@@ -1,0 +1,17 @@
+{
+    "name": "administrator/frame",
+    "description": "c86",
+    "require": {
+        "filp/whoops": "^2.1"
+    },
+    "autoload":{
+        "files":[
+            "./system/helper.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app\\",
+            "system\\":"system"
+        }
+    }
+}
